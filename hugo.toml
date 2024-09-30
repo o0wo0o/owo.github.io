@@ -1,0 +1,58 @@
+baseURL = 'https://o0wo0o.github.io/'
+languageCode = 'en-us'
+title = '0w0o'
+theme = 'hugo-theme-hello-4s3ti'
+pluralizelisttitles = false
+
+[params]
+  hometitle = "🍺 WELCOME  HERE 🍺"
+  ShowReadingTime = true
+  defaultTheme = "dark"
+  backgroundImage = "img/back.webp"
+  backgroundEffects = true
+  showPosts = true
+  ReadMoreText = true
+  logo = { logoText = "o0wo0o", logoCursorColor = "#4ad746" }
+
+[taxonomies]
+  tag = "tags"
+  category = "blog"
+
+[markup]
+  [markup.highlight] # подсветка кода
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'gruvbox'
+    tabWidth = 4
+
+[menu]
+  [[menu.main]]
+    identifier = "About"
+    name = "About"
+    url = "/about/"
+    weight = 6
+  [[menu.main]]
+    identifier = "HTB"
+    name = "HTB"
+    url = "/htb"
+    weight = 4
+  [[menu.main]]
+    identifier = "Posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 4
+  [[menu.main]]
+    identifier = "Notes"
+    name = "Notes"
+    url = "/notes"
+    weight = 4
+
